@@ -58,7 +58,7 @@ export default siteConfig({
     },
     {
       title: '订阅',
-      pageId: 'feed'
+      pageId: '2638c0a0f6fa4337ad873fec16228d29'
     },
   //   {
   //     title: 'Contact',
