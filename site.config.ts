@@ -56,6 +56,10 @@ export default siteConfig({
       title: 'About',
       pageId: '9edeb17d9471405ab9358740cb8a5ca0'
     },
+    {
+      title: '订阅',
+      pageId: ''
+    },
   //   {
   //     title: 'Contact',
   //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
