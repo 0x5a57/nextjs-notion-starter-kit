@@ -29,6 +29,14 @@ export default siteConfig({
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
+  // Cusdis comment widget (optional)
+  // cusdis: {
+  //   appId:'', // data-app-id
+  //   lang:'zh-cn',
+  //   host:'https://cusdis.com', // change this, if you're using self-hosted version
+  //   scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this, if you're using self-hosted version
+  // },
+
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: false,
 

@@ -32,12 +32,21 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
+
+  cusdis?: Cusdis
 }
 
 export interface NavigationLink {
   title: string
   pageId?: string
   url?: string
+}
+
+export interface Cusdis {
+  appId: string
+  lang: string
+  host?: string
+  scriptSrc?: string
 }
 
 export const siteConfig = (config: SiteConfig): SiteConfig => {

@@ -203,3 +203,9 @@ function invertPageUrlOverrides(
     }
   }, {})
 }
+
+// Optional Cusdis widget https://cusdis.com
+export const cusdis = getSiteConfig(
+  'cusdis',
+  null
+)
