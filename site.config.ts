@@ -30,12 +30,12 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // Cusdis comment widget (optional)
-  // cusdis: {
-  //   appId:'', // data-app-id
-  //   lang:'zh-cn',
-  //   host:'https://cusdis.com', // change this, if you're using self-hosted version
-  //   scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this, if you're using self-hosted version
-  // },
+  cusdis: {
+    appId:'1e920669-0e98-4cd1-bc3a-59c8352a034a', // data-app-id
+    lang:'zh-cn',
+    host:'https://cusdis.roastinthehell.com', // change this, if you're using self-hosted version
+    scriptSrc: 'https://cusdis.roastinthehell.com/js/cusdis.es.js' // change this, if you're using self-hosted version
+  },
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: false,
